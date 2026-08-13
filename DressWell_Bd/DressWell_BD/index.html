@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>dresswell-bd</title>
+  </head>
+  <body>
+    
+    <main class="main">
+      <h1>Dress<span>Well</h1></span>
+
+      <section class="insert">
+        <form class="form">
+          <input type="text" name="name" placeholder="Name of the Product" />
+          <input type="number" name="prize" placeholder="Prize" step="0.01" />
+          <input type="number" name="amount" placeholder="Amount" step="0.01">
+          <textarea name="Descripcion" placeholder="Insert Description"></textarea>
+          <input type="text" name="time" placeholder="Waiting Time">
+          
+          
+
+          <button type="submit">Register</button>
+        </form>
+      </section>
+
+      <section class="data">
+        <button class="btn">Mostrar productos</button>
+
+        <section class="data-table">
+          <table class="table">
+            <thead class="thead"></thead>
+            <tbody class="tbody"></tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+  
+    <div id="app"></div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
